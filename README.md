@@ -8,6 +8,7 @@ If you are a developer like me, then you probably know that it takes tremendous 
 
 The following are the instructions for using Crystal AI:
 The first thing you need to do is download this repository to your device, so for that you can either just download it directly using GitHub or run the command
+
 `git clone https://github.com/crystaltechnologies/crystal-app`
 
 Then all you have to do is just launch the application named
