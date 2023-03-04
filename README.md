@@ -15,3 +15,13 @@ Crystal for Mac
 Crystal.exe for Windows
 
 A GPU will be required for faster performance. It will still work if you do not have CPU but just with a bit of latency.
+
+If you have any questions regarding anything on this repository then feel free to contact me on the following platforms:
+
+Snapchat: vatsal_dutt
+
+SMS: (252) 698-8665
+
+Email: vatdut8994@gmail.com
+
+I am not on any other social media platform.
