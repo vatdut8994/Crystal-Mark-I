@@ -1,4 +1,4 @@
-# CRYSTAL
+# CRYSTAL - Comprehensive Robotics Yielding Sophisticated Technology and Logistics
 Crystal is an Artificial Intelligence trained on massive amount of internet data just like OpenAI's ChatGPT, but Crystal is better.
 Not bragging, but it is what it is. You most probably have watched Iron Man, and the more you look at Tony Stark, the more you start liking his personality and loving his technology. One of his most important inventions that a lot of people have noticed is JARVIS, this is an AGI developed by Tony Stark to manage his work, house, armour, and other robots. Right after you observe this you want that piece of tech, don't you?
 
