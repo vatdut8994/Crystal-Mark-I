@@ -1,0 +1,108 @@
+{"intents":  [
+  {
+    "tag": "play/pause",
+    "patterns": [
+      "pause it",
+      "pause the song",
+      "pause the video",
+      "stop the video",
+      "stop the song",
+      "stop it",
+      "play it",
+      "play the song",
+      "play the video"
+    ],
+    "responses": [
+      "Okay!",
+      "Command accepted"
+    ]
+  },
+  {
+    "tag": "volume up",
+    "patterns": [
+      "turn it up",
+      "turn the volume up",
+      "increase the volume",
+      "volume up"
+    ],
+    "responses": [
+      "Okay!",
+      "Command accepted"
+    ]
+  },
+  {
+    "tag": "volume down",
+    "patterns": [
+      "turn it down",
+      "turn the volume down",
+      "decrease the volume",
+      "volume down"
+    ],
+    "responses": [
+      "Okay!",
+      "Command accepted"
+    ]
+  },
+  {
+    "tag": "brightness down",
+    "patterns": [
+      "brightness down",
+      "turn the brightness down",
+      "decrease the brightness",
+      "brightness down"
+    ],
+    "responses": [
+      "Okay!",
+      "Command accepted"
+    ]
+  },
+  {
+    "tag": "brightness up",
+    "patterns": [
+      "brightness up",
+      "turn the brightness up",
+      "increase the brightness",
+      "brightness up"
+    ],
+    "responses": [
+      "Okay!",
+      "Command accepted"
+    ]
+  },
+  {
+    "tag": "forward",
+    "patterns": [
+      "move forward",
+      "go forward",
+      "go front"
+    ],
+    "responses": [
+      "Okay!",
+      "Command accepted"
+    ]
+  },
+  {
+    "tag": "backward",
+    "patterns": [
+      "move backward",
+      "go backward",
+      "go back"
+    ],
+    "responses": [
+      "Okay!",
+      "Command accepted"
+    ]
+  },
+  {
+    "tag": "mute",
+    "patterns": [
+      "mute",
+      "unmute"
+    ],
+    "responses": [
+      "Okay!",
+      "Command accepted"
+    ]
+  }
+]}
+
