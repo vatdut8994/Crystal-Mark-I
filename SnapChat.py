@@ -158,7 +158,7 @@ while True:
     person, name, all_chat = get_chat()
     data = pd.DataFrame(all_chat)
     if len(all_chat["ME"]) > 1 and len(all_chat["RECIEVER"]) > 1:
-        np.savetxt(f'{folder_location}data/chatsnap.csv', data.to_numpy(),fmt='%s', delimiter='|', encoding="utf-8")
+        np.savetxt(f'{folder_location}database/chatsnap.csv', data.to_numpy(),fmt='%s', delimiter='|', encoding="utf-8")
     previous_chat = format_data(name)
     generate_reponse(person, previous_chat, name)
     time.sleep(10)
