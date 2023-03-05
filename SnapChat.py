@@ -15,7 +15,7 @@ import os
 with open("pwd.txt", 'r') as pwd:
     folder_location = pwd.read()
     
-chromefile = open(f"{folder_location}data/chromepath.txt", 'r')
+chromefile = open(f"{folder_location}database/chromepath.txt", 'r')
 chromepath = chromefile.read()
 chromefile.close()
 
@@ -114,11 +114,11 @@ def format_data(other_name):
     # with open("chatsnap1.csv", 'w', encoding="utf-8") as filew:
     #     filew.write(readed)
     try:
-        data = pd.read_csv(f"{folder_location}data/chatsnap.csv", delimiter="|", encoding='utf-8')
+        data = pd.read_csv(f"{folder_location}database/chatsnap.csv", delimiter="|", encoding='utf-8')
     except:
-        with open(f"{folder_location}data/chatsnap.csv", 'w') as file:
+        with open(f"{folder_location}database/chatsnap.csv", 'w') as file:
             file.write("ME|RECIEVER\n")
-        data = pd.read_csv(f"{folder_location}data/chatsnap.csv", delimiter="|", encoding='utf-8')
+        data = pd.read_csv(f"{folder_location}database/chatsnap.csv", delimiter="|", encoding='utf-8')
         
     my_chat = data["ME"]
     other_chat = data["RECIEVER"]
