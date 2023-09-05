@@ -57,10 +57,12 @@ void setup() {
   pinMode(in2, OUTPUT);
   pinMode(in3, OUTPUT);
   pinMode(in4, OUTPUT);
-  shoulder.attach(11);
-  elbow.attach(10);
+  shoulder.attach(10);
+  elbow.attach(11);
   wrist.attach(9);
   fingers.attach(8);
+  shoulder.write(0);
+  elbow.write(0);
 }
  
 void loop() {
@@ -84,15 +86,15 @@ void loop() {
     }else if (serialData == "8"){
       elbow.write(0);
     }else if (serialData == "9"){
-      shoulder.write(80);
+      shoulder.write(0);
     }else if (serialData == "10"){
       shoulder.write(180);
     }else if (serialData == "11"){
-      shoulder.write(105);
+      shoulder.write(45);
     }else if (serialData == "12"){
-      shoulder.write(130);
+      shoulder.write(90);
     }else if (serialData == "13"){
-      shoulder.write(155);
+      shoulder.write(135);
     }else if (serialData == "14"){
       elbow.write(135);
     }else if (serialData == "15"){
@@ -109,4 +111,6 @@ void loop() {
       stop_car();
     }
   }
+  digitalWrite(in1, 1);
+  digitalWrite(in2, 0);
 }
